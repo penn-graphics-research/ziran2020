@@ -3,6 +3,7 @@
 This is the opensource code for the following papers:
 
 (1) AnisoMPM: Animating Anisotropic Damage Mechanics, Joshuah Wolper, Yunuo Chen, Minchen Li, Yu Fang, Ziyin Qu, Jiecong Lu, Meggie Cheng, Chenfanfu Jiang (SIGGRAPH 2020)
+Project Page: https://joshuahwolper.com/anisompm
 
 (2) IQ-MPM: An Interface Quadrature Material Point Method for Non-sticky Strongly Two-way Coupled Nonlinear Solids and Fluids, Yu Fang*, Ziyin Qu* (equal contributions), Minchen Li, Xinxin Zhang, Yixin Zhu, Mridul Aanjaneya, Chenfanfu Jiang (SIGGRAPH 2020)
 
