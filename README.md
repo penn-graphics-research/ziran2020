@@ -35,7 +35,7 @@ You need to do this due to the github single file size limit.
 
 Please cite our papers if you use this code for your research: 
 ```
-@article{josh2020anisompm,
+@article{wolper2020anisompm,
   title={AnisoMPM: Animating Anisotropic Damage Mechanics},
   author={Wolper, Joshuah and Chen, Yunuo and Li, Minchen and Fang, Yu and Qu, Ziyin and Lu, Jiecong and Cheng, Meggie and Jiang, Chenfanfu},
   journal={ACM Trans. Graph.},
