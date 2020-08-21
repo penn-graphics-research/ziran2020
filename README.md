@@ -31,26 +31,26 @@ You need to do this due to the github single file size limit.
 
 Please cite our papers if you use this code for your research: 
 ```
-@article{fang2019silly,
-  title={Silly rubber: an implicit material point method for simulating non-equilibrated viscoelastic and elastoplastic solids},
-  author={Fang, Yu and Li, Minchen and Gao, Ming and Jiang, Chenfanfu},
-  journal={ACM Transactions on Graphics (TOG)},
+@article{josh2020anisompm,
+  title={AnisoMPM: Animating Anisotropic Damage Mechanics},
+  author={Wolper, Joshuah and Chen, Yunuo and Li, Minchen and Fang, Yu and Qu, Ziyin and Lu, Jiecong and Cheng, Meggie and Jiang, Chenfanfu},
+  journal={ACM Trans. Graph.},
   volume={39},
   number={4},
-  pages={118},
-  year={2019},
+  year={2020},
   publisher={ACM}
 }
 ```
 ```
-@article{wolper2019cd,
-  title={CD-MPM: Continuum damage material point methods for dynamic fracture animation},
-  author={Wolper, Joshuah and Fang, Yu and Li, Minchen and Lu, Jiecong and Gao, Ming and Jiang, Chenfanfu},
-  journal={ACM Transactions on Graphics (TOG)},
-  volume={38},
+@article{fang2020iqmpm,
+  title={IQ-MPM: An Interface Quadrature Material Point Method for Non-Sticky Strongly Two-Way Coupled Nonlinear Solids and Fluids},
+  author={Fang, Yu and Qu, Ziyin and Li, Minchen and Zhang, Xinxin and Zhu, Yixin and Aanjaneya, Mridul and Jiang, Chenfanfu},
+  volume={39},
+  journal={ACM Trans. Graph.},
   number={4},
-  pages={119},
-  year={2019},
-  publisher={ACM}
+  year={2020},
+  publisher={ACM},
 }
+
+
 ```
