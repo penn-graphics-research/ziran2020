@@ -1,0 +1,17 @@
+install:
+  - sh: nvidia-smi
+  - sh: sudo apt-get update
+  - sh: sudo apt-get -y install git make cmake g++ libeigen3-dev gfortran libmetis-dev libopenvdb-dev libboost-all-dev libilmbase-dev libopenexr-dev libtbb2 libtbb-dev libz-dev clang-format-6.0 clang-format coinor-libipopt-dev ocl-icd-libopencl1 ocl-icd-opencl-dev
+  - sh: sudo mkdir build
+  - sh: cd build
+  - sh: sudo cmake -DCMAKE_BUILD_TYPE=Release -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-10.2 ..
+  - sh: sudo make -j 7
+
+test_script:
+  - sh: cd ../Tests/Lib
+  - sh: sudo ./auto_diff_tests
+  - sh: sudo ./tests
+  - sh: cd ../MPM/ 
+  - sh: sudo ./mpm_base_tests
+
+build: off
