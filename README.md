@@ -1,6 +1,6 @@
 ## Troubleshooting Compiling
 
-If anyone encounters compiling errors with GNU 9.3.0 or other versions, please try to switch to GNU 7.5.0 to compile, which we've verified works.
+If anyone encounters compiling errors with GNU 9.3.0 or other versions, please switch to GNU 7.5.0 to compile which we've verified to work.
 
 Use the following command to install GNU 7.5.0.
 ```
