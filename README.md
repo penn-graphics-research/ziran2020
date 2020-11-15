@@ -1,3 +1,19 @@
+## Troubleshooting Compiling
+
+If anyone encounters compiling error with GNU 9.3.0 or other version, please try to switch to GNU 7.5.0 to compile, which is verified to pass.
+
+Use the following command to install GNU 7.5.0.
+```
+sudo apt-get install g++-7
+```
+
+When executing cmake, users should manually choose the compiler to use as well.
+
+```
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/gcc-7 -DCMAKE_CXX_COMPILER=/usr/bin/g++-7
+```
+
+
 ## Code description 
 
 This is the opensource code for the following papers:
