@@ -47,6 +47,14 @@ You need to do this due to the github single file size limit.
     Check folder Projects/anisofracture for AnisoMPM
     Check folder Projects/coupling for IQ-MPM
 
+## Sampling Particles
+
+We used TetWild to compute tetrahedralized volumes to sample particles from, check it out here: https://github.com/Yixin-Hu/TetWild
+
+## Visualization
+
+We dump out .bgeo files for visualization and use Houdini to visualize our outputs. For converting a point cloud to a surface we use the meshing algorithm seen here: https://dl.acm.org/doi/10.1145/3340259, but you also have the option to use Houdini's VDB support to directly compute a VDB level set surface from the output particles (see https://www.sidefx.com/docs/houdini/nodes/sop/vdbfromparticles.html)
+
 ## Bibtex
 
 Please cite our papers if you use this code for your research: 
