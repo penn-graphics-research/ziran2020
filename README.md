@@ -55,7 +55,7 @@ We used TetWild to compute tetrahedralized volumes to sample particles from, che
 
 We dump out .bgeo files for visualization and use Houdini to visualize our outputs. For converting a point cloud to a surface we use the meshing algorithm seen here: https://dl.acm.org/doi/10.1145/3340259, but you also have the option to use Houdini's VDB support to directly compute a VDB level set surface from the output particles (see https://www.sidefx.com/docs/houdini/nodes/sop/vdbfromparticles.html)
 
-## Bibtex
+## BibTeX
 
 Please cite our papers if you use this code for your research: 
 ```
