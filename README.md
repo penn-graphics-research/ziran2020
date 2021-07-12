@@ -26,7 +26,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/gcc-7 -DCMAKE_CX
 
 Download and unzip the following file in the root directory.
 
-https://www.seas.upenn.edu/~cffjiang/research/ziran2020/Data.zip
+https://drive.google.com/file/d/1f22ObJmiq8H1_YObTz5BuE4IAWLQhyuB/view?usp=sharing
 
 You need to do this due to the github single file size limit.
 
